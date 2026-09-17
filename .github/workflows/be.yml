@@ -59,7 +59,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: ' yangpa-be-peg'
+          app-name: 'yangpa-be-peg'
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DDF84AAF6F0346A58319A82573C9CC05 }}
